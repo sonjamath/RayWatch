@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7469FC2ABC975400889D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FB2ABC975400889D2E /* AppDelegate.swift */; };
+		3C7469FE2ABC975400889D2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FD2ABC975400889D2E /* SceneDelegate.swift */; };
+		3C746A002ABC975400889D2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FF2ABC975400889D2E /* ViewController.swift */; };
+		3C746A032ABC975400889D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C746A012ABC975400889D2E /* Main.storyboard */; };
+		3C746A052ABC975600889D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C746A042ABC975600889D2E /* Assets.xcassets */; };
+		3C746A082ABC975600889D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C746A062ABC975600889D2E /* LaunchScreen.storyboard */; };
+		3C746A132ABC975700889D2E /* RayWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C746A122ABC975700889D2E /* RayWatchTests.swift */; };
+		3C746A1D2ABC975700889D2E /* RayWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C746A1C2ABC975700889D2E /* RayWatchUITests.swift */; };
+		3C746A1F2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C746A1E2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C746A0F2ABC975700889D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7469F02ABC975400889D2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7469F72ABC975400889D2E;
+			remoteInfo = RayWatch;
+		};
+		3C746A192ABC975700889D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7469F02ABC975400889D2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7469F72ABC975400889D2E;
+			remoteInfo = RayWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C7469F82ABC975400889D2E /* RayWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7469FB2ABC975400889D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C7469FD2ABC975400889D2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C7469FF2ABC975400889D2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C746A022ABC975400889D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C746A042ABC975600889D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C746A072ABC975600889D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C746A092ABC975600889D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C746A0E2ABC975700889D2E /* RayWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C746A122ABC975700889D2E /* RayWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayWatchTests.swift; sourceTree = "<group>"; };
+		3C746A182ABC975700889D2E /* RayWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C746A1C2ABC975700889D2E /* RayWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayWatchUITests.swift; sourceTree = "<group>"; };
+		3C746A1E2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7469F52ABC975400889D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C746A0B2ABC975700889D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C746A152ABC975700889D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7469EF2ABC975400889D2E = {
+			isa = PBXGroup;
+			children = (
+				3C7469FA2ABC975400889D2E /* RayWatch */,
+				3C746A112ABC975700889D2E /* RayWatchTests */,
+				3C746A1B2ABC975700889D2E /* RayWatchUITests */,
+				3C7469F92ABC975400889D2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7469F92ABC975400889D2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7469F82ABC975400889D2E /* RayWatch.app */,
+				3C746A0E2ABC975700889D2E /* RayWatchTests.xctest */,
+				3C746A182ABC975700889D2E /* RayWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7469FA2ABC975400889D2E /* RayWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3C7469FB2ABC975400889D2E /* AppDelegate.swift */,
+				3C7469FD2ABC975400889D2E /* SceneDelegate.swift */,
+				3C7469FF2ABC975400889D2E /* ViewController.swift */,
+				3C746A012ABC975400889D2E /* Main.storyboard */,
+				3C746A042ABC975600889D2E /* Assets.xcassets */,
+				3C746A062ABC975600889D2E /* LaunchScreen.storyboard */,
+				3C746A092ABC975600889D2E /* Info.plist */,
+			);
+			path = RayWatch;
+			sourceTree = "<group>";
+		};
+		3C746A112ABC975700889D2E /* RayWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C746A122ABC975700889D2E /* RayWatchTests.swift */,
+			);
+			path = RayWatchTests;
+			sourceTree = "<group>";
+		};
+		3C746A1B2ABC975700889D2E /* RayWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C746A1C2ABC975700889D2E /* RayWatchUITests.swift */,
+				3C746A1E2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift */,
+			);
+			path = RayWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7469F72ABC975400889D2E /* RayWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C746A222ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatch" */;
+			buildPhases = (
+				3C7469F42ABC975400889D2E /* Sources */,
+				3C7469F52ABC975400889D2E /* Frameworks */,
+				3C7469F62ABC975400889D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RayWatch;
+			productName = RayWatch;
+			productReference = 3C7469F82ABC975400889D2E /* RayWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C746A0D2ABC975700889D2E /* RayWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C746A252ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatchTests" */;
+			buildPhases = (
+				3C746A0A2ABC975700889D2E /* Sources */,
+				3C746A0B2ABC975700889D2E /* Frameworks */,
+				3C746A0C2ABC975700889D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C746A102ABC975700889D2E /* PBXTargetDependency */,
+			);
+			name = RayWatchTests;
+			productName = RayWatchTests;
+			productReference = 3C746A0E2ABC975700889D2E /* RayWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C746A172ABC975700889D2E /* RayWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C746A282ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatchUITests" */;
+			buildPhases = (
+				3C746A142ABC975700889D2E /* Sources */,
+				3C746A152ABC975700889D2E /* Frameworks */,
+				3C746A162ABC975700889D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C746A1A2ABC975700889D2E /* PBXTargetDependency */,
+			);
+			name = RayWatchUITests;
+			productName = RayWatchUITests;
+			productReference = 3C746A182ABC975700889D2E /* RayWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7469F02ABC975400889D2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C7469F72ABC975400889D2E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C746A0D2ABC975700889D2E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C7469F72ABC975400889D2E;
+					};
+					3C746A172ABC975700889D2E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C7469F72ABC975400889D2E;
+					};
+				};
+			};
+			buildConfigurationList = 3C7469F32ABC975400889D2E /* Build configuration list for PBXProject "RayWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7469EF2ABC975400889D2E;
+			productRefGroup = 3C7469F92ABC975400889D2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7469F72ABC975400889D2E /* RayWatch */,
+				3C746A0D2ABC975700889D2E /* RayWatchTests */,
+				3C746A172ABC975700889D2E /* RayWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7469F62ABC975400889D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C746A082ABC975600889D2E /* LaunchScreen.storyboard in Resources */,
+				3C746A052ABC975600889D2E /* Assets.xcassets in Resources */,
+				3C746A032ABC975400889D2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C746A0C2ABC975700889D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C746A162ABC975700889D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7469F42ABC975400889D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C746A002ABC975400889D2E /* ViewController.swift in Sources */,
+				3C7469FC2ABC975400889D2E /* AppDelegate.swift in Sources */,
+				3C7469FE2ABC975400889D2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C746A0A2ABC975700889D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C746A132ABC975700889D2E /* RayWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C746A142ABC975700889D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C746A1F2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift in Sources */,
+				3C746A1D2ABC975700889D2E /* RayWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C746A102ABC975700889D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7469F72ABC975400889D2E /* RayWatch */;
+			targetProxy = 3C746A0F2ABC975700889D2E /* PBXContainerItemProxy */;
+		};
+		3C746A1A2ABC975700889D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7469F72ABC975400889D2E /* RayWatch */;
+			targetProxy = 3C746A192ABC975700889D2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C746A012ABC975400889D2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C746A022ABC975400889D2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C746A062ABC975600889D2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C746A072ABC975600889D2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C746A202ABC975700889D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C746A212ABC975700889D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C746A232ABC975700889D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLRZ32L37H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RayWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonjamathew.RayWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C746A242ABC975700889D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLRZ32L37H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RayWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonjamathew.RayWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C746A262ABC975700889D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLRZ32L37H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonjamathew.RayWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RayWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RayWatch";
+			};
+			name = Debug;
+		};
+		3C746A272ABC975700889D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLRZ32L37H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonjamathew.RayWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RayWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RayWatch";
+			};
+			name = Release;
+		};
+		3C746A292ABC975700889D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLRZ32L37H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonjamathew.RayWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RayWatch;
+			};
+			name = Debug;
+		};
+		3C746A2A2ABC975700889D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLRZ32L37H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonjamathew.RayWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RayWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7469F32ABC975400889D2E /* Build configuration list for PBXProject "RayWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C746A202ABC975700889D2E /* Debug */,
+				3C746A212ABC975700889D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C746A222ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C746A232ABC975700889D2E /* Debug */,
+				3C746A242ABC975700889D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C746A252ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C746A262ABC975700889D2E /* Debug */,
+				3C746A272ABC975700889D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C746A282ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C746A292ABC975700889D2E /* Debug */,
+				3C746A2A2ABC975700889D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7469F02ABC975400889D2E /* Project object */;
+}
