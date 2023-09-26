@@ -29,7 +29,6 @@ extension RealAPIManager {
     }
 }
 
-
 struct APIManager: RealAPIManager {
     var session: URLSession = URLSession.shared
     
@@ -116,39 +115,4 @@ extension Task where Failure == Error {
 struct APIErrorResponseModel: Decodable, LocalizedError {
     var message: String
     var errorDescription: String?{ message }
-}
-
-@available(iOS, deprecated: 15.0, message: "Use the built-in API instead")
-extension URLSession {
-    func data(from urlRequest: URLRequest) async throws -> (Data, URLResponse) {
-        try await withCheckedThrowingContinuation { continuation in
-            let task = self.dataTask(with: urlRequest) { data, response, error in
-                guard let data = data, let response = response else {
-                    let error = error ?? URLError(.badServerResponse)
-                    return continuation.resume(throwing: error)
-                }
-                
-                continuation.resume(returning: (data, response))
-            }
-            
-            task.resume()
-        }
-    }
-}
-
-extension URLSession {
-    func dataMultipart(from endpoint: Endpoint) async throws -> (Data, URLResponse) {
-         try await withCheckedThrowingContinuation { continuation in
-             let task = self.uploadTask(with: endpoint.asURLRequest(with: [:]), from: endpoint.multipartData()) { data, response, error in
-                 guard let data = data, let response = response else {
-                     let error = error ?? URLError(.badServerResponse)
-                     return continuation.resume(throwing: error)
-                 }
-
-                 continuation.resume(returning: (data, response))
-             }
-
-             task.resume()
-        }
-    }
 }

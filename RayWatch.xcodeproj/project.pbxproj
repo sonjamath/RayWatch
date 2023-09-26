@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A5A68FFAD9B0B10540151F1 /* Pods_RayWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B3C97889B549AF1DDE2DA /* Pods_RayWatchTests.framework */; };
 		3C3066AC2AC2052600A574C6 /* UVIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3066AB2AC2052600A574C6 /* UVIndexViewModel.swift */; };
+		3C5FF00C2AC3571100C19BD8 /* URLSession + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FF00B2AC3571100C19BD8 /* URLSession + Extension.swift */; };
 		3C7469FC2ABC975400889D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FB2ABC975400889D2E /* AppDelegate.swift */; };
 		3C7469FE2ABC975400889D2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FD2ABC975400889D2E /* SceneDelegate.swift */; };
 		3C746A052ABC975600889D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C746A042ABC975600889D2E /* Assets.xcassets */; };
@@ -34,7 +35,6 @@
 		3CE538162ABF329700EFAD9E /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538152ABF329700EFAD9E /* SkinTypeViewController.swift */; };
 		3CE538182ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538172ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift */; };
 		3CE5381A2ABF3A5200EFAD9E /* UIColor + Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538192ABF3A5200EFAD9E /* UIColor + Hex.swift */; };
-		3CE5381C2AC0971B00EFAD9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5381B2AC0971B00EFAD9E /* ContentView.swift */; };
 		3CE66EE22AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EE12AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift */; };
 		3CE66EE82AC1C5F500AE1FD5 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EE72AC1C5F500AE1FD5 /* Endpoint.swift */; };
 		3CE66EEB2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EEA2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift */; };
@@ -67,6 +67,7 @@
 		022241BA81779FCFB1604BAC /* Pods-RayWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatch.debug.xcconfig"; path = "Target Support Files/Pods-RayWatch/Pods-RayWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		37415A3AB8C33EDE82C8AC6B /* Pods-RayWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatchTests.debug.xcconfig"; path = "Target Support Files/Pods-RayWatchTests/Pods-RayWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C3066AB2AC2052600A574C6 /* UVIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIndexViewModel.swift; sourceTree = "<group>"; };
+		3C5FF00B2AC3571100C19BD8 /* URLSession + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Extension.swift"; sourceTree = "<group>"; };
 		3C7469F82ABC975400889D2E /* RayWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7469FB2ABC975400889D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C7469FD2ABC975400889D2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +97,6 @@
 		3CE538152ABF329700EFAD9E /* SkinTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
 		3CE538172ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 		3CE538192ABF3A5200EFAD9E /* UIColor + Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Hex.swift"; sourceTree = "<group>"; };
-		3CE5381B2AC0971B00EFAD9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3CE66EE12AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMoreSkinTypesButton.swift; sourceTree = "<group>"; };
 		3CE66EE72AC1C5F500AE1FD5 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		3CE66EEA2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUVIndexRequestModel.swift; sourceTree = "<group>"; };
@@ -229,7 +229,6 @@
 				3CE538102ABF2E7400EFAD9E /* SkinTypeButton.swift */,
 				3CE66EE12AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift */,
 				3CE538122ABF31BD00EFAD9E /* HoverButton.swift */,
-				3CE5381B2AC0971B00EFAD9E /* ContentView.swift */,
 				3CE538172ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift */,
 			);
 			path = Views;
@@ -243,6 +242,7 @@
 				3CE5380C2ABF206F00EFAD9E /* UIViewController + Loadingview.swift */,
 				3CE538192ABF3A5200EFAD9E /* UIColor + Hex.swift */,
 				3CE66EEC2AC1C73000AE1FD5 /* URL+Extension.swift */,
+				3C5FF00B2AC3571100C19BD8 /* URLSession + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -579,7 +579,6 @@
 				3CE538132ABF31BD00EFAD9E /* HoverButton.swift in Sources */,
 				3CCE2BE92ABE273800783CFD /* UIStackView + Extensions.swift in Sources */,
 				3CCE2BEE2ABE2D5700783CFD /* UVData.swift in Sources */,
-				3CE5381C2AC0971B00EFAD9E /* ContentView.swift in Sources */,
 				3CE66EF02AC1C84900AE1FD5 /* APIManager.swift in Sources */,
 				3C7469FC2ABC975400889D2E /* AppDelegate.swift in Sources */,
 				3CCE2BEB2ABE274C00783CFD /* UILabel + Extensions.swift in Sources */,
@@ -589,6 +588,7 @@
 				3C7469FE2ABC975400889D2E /* SceneDelegate.swift in Sources */,
 				3CCE2BE12ABE26C000783CFD /* SunContentView.swift in Sources */,
 				3CE66EE82AC1C5F500AE1FD5 /* Endpoint.swift in Sources */,
+				3C5FF00C2AC3571100C19BD8 /* URLSession + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
