@@ -42,7 +42,7 @@ class SunContentView: UIView {
         let contentStackView = UIStackView.makeVStack(spacing: 10, alignment: .leading)
         self.addSubview(contentStackView)
         
-        var titleLabel = UILabel.makeLabel(with: title, font: UIFont.systemFont(ofSize: 14, weight: .regular), textColor: .white, textAlignment: .left, numberOfLines: -1)
+        let titleLabel = UILabel.makeLabel(with: title, font: UIFont.systemFont(ofSize: 14, weight: .regular), textColor: .white, textAlignment: .left, numberOfLines: -1)
         contentStackView.addArrangedSubview(titleLabel)
         titleLabel.snp.makeConstraints { make in
             make.left.right.equalTo(contentStackView).inset(inset)

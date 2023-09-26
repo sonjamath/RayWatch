@@ -49,7 +49,7 @@ struct APIManager: RealAPIManager {
     }
     
     func runMultipart<T: Decodable>(_ endpoint: Endpoint) async throws -> T {
-        var (data, response) = try await URLSession.shared.dataMultipart(from: endpoint)
+        let (data, response) = try await URLSession.shared.dataMultipart(from: endpoint)
         if (response as! HTTPURLResponse).statusCode != 200 {
             let error = try decoder.decode(APIErrorResponseModel.self, from: data)
             throw NetworkError.serverError(error)
