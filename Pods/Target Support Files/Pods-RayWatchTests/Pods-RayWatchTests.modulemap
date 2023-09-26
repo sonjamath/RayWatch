@@ -1,0 +1,6 @@
+framework module Pods_RayWatchTests {
+  umbrella header "Pods-RayWatchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

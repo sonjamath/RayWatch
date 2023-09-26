@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5A68FFAD9B0B10540151F1 /* Pods_RayWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B3C97889B549AF1DDE2DA /* Pods_RayWatchTests.framework */; };
+		3C3066AC2AC2052600A574C6 /* UVIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3066AB2AC2052600A574C6 /* UVIndexViewModel.swift */; };
 		3C7469FC2ABC975400889D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FB2ABC975400889D2E /* AppDelegate.swift */; };
 		3C7469FE2ABC975400889D2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FD2ABC975400889D2E /* SceneDelegate.swift */; };
-		3C746A002ABC975400889D2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7469FF2ABC975400889D2E /* ViewController.swift */; };
-		3C746A032ABC975400889D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C746A012ABC975400889D2E /* Main.storyboard */; };
 		3C746A052ABC975600889D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C746A042ABC975600889D2E /* Assets.xcassets */; };
 		3C746A082ABC975600889D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C746A062ABC975600889D2E /* LaunchScreen.storyboard */; };
 		3C746A132ABC975700889D2E /* RayWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C746A122ABC975700889D2E /* RayWatchTests.swift */; };
 		3C746A1D2ABC975700889D2E /* RayWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C746A1C2ABC975700889D2E /* RayWatchUITests.swift */; };
 		3C746A1F2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C746A1E2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift */; };
+		3C746A2C2ABC97D800889D2E /* UVIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C746A2B2ABC97D800889D2E /* UVIndexViewController.swift */; };
+		3CCE2BE12ABE26C000783CFD /* SunContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BE02ABE26C000783CFD /* SunContentView.swift */; };
+		3CCE2BE32ABE26E200783CFD /* UVContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BE22ABE26E200783CFD /* UVContentView.swift */; };
+		3CCE2BE92ABE273800783CFD /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BE82ABE273800783CFD /* UIStackView + Extensions.swift */; };
+		3CCE2BEB2ABE274C00783CFD /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BEA2ABE274C00783CFD /* UILabel + Extensions.swift */; };
+		3CCE2BEE2ABE2D5700783CFD /* UVData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BED2ABE2D5700783CFD /* UVData.swift */; };
+		3CCE2BF02ABE2D7100783CFD /* UVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BEF2ABE2D7100783CFD /* UVResult.swift */; };
+		3CCE2BF22ABE2D8500783CFD /* SafeExposureTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BF12ABE2D8500783CFD /* SafeExposureTime.swift */; };
+		3CCE2BF42ABE2D9500783CFD /* SunInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BF32ABE2D9500783CFD /* SunInfo.swift */; };
+		3CCE2BF62ABE2DA700783CFD /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BF52ABE2DA700783CFD /* SunPosition.swift */; };
+		3CCE2BF82ABE2DBA00783CFD /* SunTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2BF72ABE2DBA00783CFD /* SunTimes.swift */; };
+		3CE5380D2ABF206F00EFAD9E /* UIViewController + Loadingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5380C2ABF206F00EFAD9E /* UIViewController + Loadingview.swift */; };
+		3CE5380F2ABF233700EFAD9E /* UVIndexDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5380E2ABF233700EFAD9E /* UVIndexDataModel.swift */; };
+		3CE538112ABF2E7400EFAD9E /* SkinTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538102ABF2E7400EFAD9E /* SkinTypeButton.swift */; };
+		3CE538132ABF31BD00EFAD9E /* HoverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538122ABF31BD00EFAD9E /* HoverButton.swift */; };
+		3CE538162ABF329700EFAD9E /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538152ABF329700EFAD9E /* SkinTypeViewController.swift */; };
+		3CE538182ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538172ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift */; };
+		3CE5381A2ABF3A5200EFAD9E /* UIColor + Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE538192ABF3A5200EFAD9E /* UIColor + Hex.swift */; };
+		3CE5381C2AC0971B00EFAD9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5381B2AC0971B00EFAD9E /* ContentView.swift */; };
+		3CE66EE22AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EE12AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift */; };
+		3CE66EE82AC1C5F500AE1FD5 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EE72AC1C5F500AE1FD5 /* Endpoint.swift */; };
+		3CE66EEB2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EEA2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift */; };
+		3CE66EED2AC1C73000AE1FD5 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EEC2AC1C73000AE1FD5 /* URL+Extension.swift */; };
+		3CE66EF02AC1C84900AE1FD5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EEF2AC1C84900AE1FD5 /* APIManager.swift */; };
+		3CE66EF32AC1C88B00AE1FD5 /* NetworkTurnpike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE66EF22AC1C88B00AE1FD5 /* NetworkTurnpike.swift */; };
+		3CE66EF62AC1C94100AE1FD5 /* uv_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CE66EF52AC1C94100AE1FD5 /* uv_index.json */; };
+		CF1820D3D8ED085AB40F60E6 /* Pods_RayWatch_RayWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB35529C9EA7ADD2292539BF /* Pods_RayWatch_RayWatchUITests.framework */; };
+		DB362C9BA878DBC7F1FBFE6E /* Pods_RayWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C22100B0BCB8A4688308B25 /* Pods_RayWatch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +64,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022241BA81779FCFB1604BAC /* Pods-RayWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatch.debug.xcconfig"; path = "Target Support Files/Pods-RayWatch/Pods-RayWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		37415A3AB8C33EDE82C8AC6B /* Pods-RayWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatchTests.debug.xcconfig"; path = "Target Support Files/Pods-RayWatchTests/Pods-RayWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C3066AB2AC2052600A574C6 /* UVIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIndexViewModel.swift; sourceTree = "<group>"; };
 		3C7469F82ABC975400889D2E /* RayWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7469FB2ABC975400889D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C7469FD2ABC975400889D2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C7469FF2ABC975400889D2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C746A022ABC975400889D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C746A042ABC975600889D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C746A072ABC975600889D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C746A092ABC975600889D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +78,39 @@
 		3C746A182ABC975700889D2E /* RayWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C746A1C2ABC975700889D2E /* RayWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayWatchUITests.swift; sourceTree = "<group>"; };
 		3C746A1E2ABC975700889D2E /* RayWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C746A2B2ABC97D800889D2E /* UVIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIndexViewController.swift; sourceTree = "<group>"; };
+		3CCE2BE02ABE26C000783CFD /* SunContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunContentView.swift; sourceTree = "<group>"; };
+		3CCE2BE22ABE26E200783CFD /* UVContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVContentView.swift; sourceTree = "<group>"; };
+		3CCE2BE82ABE273800783CFD /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		3CCE2BEA2ABE274C00783CFD /* UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
+		3CCE2BED2ABE2D5700783CFD /* UVData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVData.swift; sourceTree = "<group>"; };
+		3CCE2BEF2ABE2D7100783CFD /* UVResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVResult.swift; sourceTree = "<group>"; };
+		3CCE2BF12ABE2D8500783CFD /* SafeExposureTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeExposureTime.swift; sourceTree = "<group>"; };
+		3CCE2BF32ABE2D9500783CFD /* SunInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunInfo.swift; sourceTree = "<group>"; };
+		3CCE2BF52ABE2DA700783CFD /* SunPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunPosition.swift; sourceTree = "<group>"; };
+		3CCE2BF72ABE2DBA00783CFD /* SunTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimes.swift; sourceTree = "<group>"; };
+		3CE5380C2ABF206F00EFAD9E /* UIViewController + Loadingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Loadingview.swift"; sourceTree = "<group>"; };
+		3CE5380E2ABF233700EFAD9E /* UVIndexDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIndexDataModel.swift; sourceTree = "<group>"; };
+		3CE538102ABF2E7400EFAD9E /* SkinTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeButton.swift; sourceTree = "<group>"; };
+		3CE538122ABF31BD00EFAD9E /* HoverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverButton.swift; sourceTree = "<group>"; };
+		3CE538152ABF329700EFAD9E /* SkinTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
+		3CE538172ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CE538192ABF3A5200EFAD9E /* UIColor + Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Hex.swift"; sourceTree = "<group>"; };
+		3CE5381B2AC0971B00EFAD9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CE66EE12AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMoreSkinTypesButton.swift; sourceTree = "<group>"; };
+		3CE66EE72AC1C5F500AE1FD5 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		3CE66EEA2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUVIndexRequestModel.swift; sourceTree = "<group>"; };
+		3CE66EEC2AC1C73000AE1FD5 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		3CE66EEF2AC1C84900AE1FD5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3CE66EF22AC1C88B00AE1FD5 /* NetworkTurnpike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTurnpike.swift; sourceTree = "<group>"; };
+		3CE66EF52AC1C94100AE1FD5 /* uv_index.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = uv_index.json; sourceTree = "<group>"; };
+		5B53941E2816E7F32AC7D1AB /* Pods-RayWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatch.release.xcconfig"; path = "Target Support Files/Pods-RayWatch/Pods-RayWatch.release.xcconfig"; sourceTree = "<group>"; };
+		6C22100B0BCB8A4688308B25 /* Pods_RayWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RayWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCAA11C05715921A8A4C0B0 /* Pods-RayWatch-RayWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatch-RayWatchUITests.release.xcconfig"; path = "Target Support Files/Pods-RayWatch-RayWatchUITests/Pods-RayWatch-RayWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D9B3C97889B549AF1DDE2DA /* Pods_RayWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RayWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECEE3DB5FDBC78CA10BD68B /* Pods-RayWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatchTests.release.xcconfig"; path = "Target Support Files/Pods-RayWatchTests/Pods-RayWatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		CED5FACEAB7EA6DA246A3E72 /* Pods-RayWatch-RayWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RayWatch-RayWatchUITests.debug.xcconfig"; path = "Target Support Files/Pods-RayWatch-RayWatchUITests/Pods-RayWatch-RayWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB35529C9EA7ADD2292539BF /* Pods_RayWatch_RayWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RayWatch_RayWatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB362C9BA878DBC7F1FBFE6E /* Pods_RayWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5A68FFAD9B0B10540151F1 /* Pods_RayWatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +134,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1820D3D8ED085AB40F60E6 /* Pods_RayWatch_RayWatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247E9D7789F1D0870EE9517C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C22100B0BCB8A4688308B25 /* Pods_RayWatch.framework */,
+				EB35529C9EA7ADD2292539BF /* Pods_RayWatch_RayWatchUITests.framework */,
+				9D9B3C97889B549AF1DDE2DA /* Pods_RayWatchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C3066AE2AC2059500A574C6 /* Response Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CCE2BED2ABE2D5700783CFD /* UVData.swift */,
+				3CCE2BEF2ABE2D7100783CFD /* UVResult.swift */,
+				3CCE2BF12ABE2D8500783CFD /* SafeExposureTime.swift */,
+				3CCE2BF32ABE2D9500783CFD /* SunInfo.swift */,
+				3CCE2BF52ABE2DA700783CFD /* SunPosition.swift */,
+				3CCE2BF72ABE2DBA00783CFD /* SunTimes.swift */,
+			);
+			path = "Response Models";
+			sourceTree = "<group>";
+		};
 		3C7469EF2ABC975400889D2E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +171,8 @@
 				3C746A112ABC975700889D2E /* RayWatchTests */,
 				3C746A1B2ABC975700889D2E /* RayWatchUITests */,
 				3C7469F92ABC975400889D2E /* Products */,
+				B78F50676607BE4664D6319B /* Pods */,
+				247E9D7789F1D0870EE9517C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +189,14 @@
 		3C7469FA2ABC975400889D2E /* RayWatch */ = {
 			isa = PBXGroup;
 			children = (
+				3CE66EEE2AC1C83E00AE1FD5 /* Managers */,
 				3C7469FB2ABC975400889D2E /* AppDelegate.swift */,
 				3C7469FD2ABC975400889D2E /* SceneDelegate.swift */,
-				3C7469FF2ABC975400889D2E /* ViewController.swift */,
-				3C746A012ABC975400889D2E /* Main.storyboard */,
+				3CE538142ABF328000EFAD9E /* ViewControllers */,
+				3CCE2BFB2ABE2E4F00783CFD /* Networking */,
+				3CCE2BEC2ABE2D4B00783CFD /* Models */,
+				3CCE2BE72ABE271C00783CFD /* Extensions */,
+				3CCE2BDF2ABE26AC00783CFD /* Views */,
 				3C746A042ABC975600889D2E /* Assets.xcassets */,
 				3C746A062ABC975600889D2E /* LaunchScreen.storyboard */,
 				3C746A092ABC975600889D2E /* Info.plist */,
@@ -127,6 +221,107 @@
 			path = RayWatchUITests;
 			sourceTree = "<group>";
 		};
+		3CCE2BDF2ABE26AC00783CFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CCE2BE22ABE26E200783CFD /* UVContentView.swift */,
+				3CCE2BE02ABE26C000783CFD /* SunContentView.swift */,
+				3CE538102ABF2E7400EFAD9E /* SkinTypeButton.swift */,
+				3CE66EE12AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift */,
+				3CE538122ABF31BD00EFAD9E /* HoverButton.swift */,
+				3CE5381B2AC0971B00EFAD9E /* ContentView.swift */,
+				3CE538172ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CCE2BE72ABE271C00783CFD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CCE2BE82ABE273800783CFD /* UIStackView + Extensions.swift */,
+				3CCE2BEA2ABE274C00783CFD /* UILabel + Extensions.swift */,
+				3CE5380C2ABF206F00EFAD9E /* UIViewController + Loadingview.swift */,
+				3CE538192ABF3A5200EFAD9E /* UIColor + Hex.swift */,
+				3CE66EEC2AC1C73000AE1FD5 /* URL+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CCE2BEC2ABE2D4B00783CFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C3066AE2AC2059500A574C6 /* Response Models */,
+				3CE66EE92AC1C65500AE1FD5 /* Request Models */,
+				3C3066AB2AC2052600A574C6 /* UVIndexViewModel.swift */,
+				3CE5380E2ABF233700EFAD9E /* UVIndexDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CCE2BFB2ABE2E4F00783CFD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3CE66EE72AC1C5F500AE1FD5 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3CE538142ABF328000EFAD9E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C746A2B2ABC97D800889D2E /* UVIndexViewController.swift */,
+				3CE538152ABF329700EFAD9E /* SkinTypeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CE66EE92AC1C65500AE1FD5 /* Request Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CE66EEA2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift */,
+			);
+			path = "Request Models";
+			sourceTree = "<group>";
+		};
+		3CE66EEE2AC1C83E00AE1FD5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3CE66EF12AC1C87B00AE1FD5 /* API Managers */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3CE66EF12AC1C87B00AE1FD5 /* API Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3CE66EF42AC1C92900AE1FD5 /* Fake JSONs */,
+				3CE66EEF2AC1C84900AE1FD5 /* APIManager.swift */,
+				3CE66EF22AC1C88B00AE1FD5 /* NetworkTurnpike.swift */,
+			);
+			path = "API Managers";
+			sourceTree = "<group>";
+		};
+		3CE66EF42AC1C92900AE1FD5 /* Fake JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				3CE66EF52AC1C94100AE1FD5 /* uv_index.json */,
+			);
+			path = "Fake JSONs";
+			sourceTree = "<group>";
+		};
+		B78F50676607BE4664D6319B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				022241BA81779FCFB1604BAC /* Pods-RayWatch.debug.xcconfig */,
+				5B53941E2816E7F32AC7D1AB /* Pods-RayWatch.release.xcconfig */,
+				CED5FACEAB7EA6DA246A3E72 /* Pods-RayWatch-RayWatchUITests.debug.xcconfig */,
+				8FCAA11C05715921A8A4C0B0 /* Pods-RayWatch-RayWatchUITests.release.xcconfig */,
+				37415A3AB8C33EDE82C8AC6B /* Pods-RayWatchTests.debug.xcconfig */,
+				AECEE3DB5FDBC78CA10BD68B /* Pods-RayWatchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +329,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C746A222ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatch" */;
 			buildPhases = (
+				3E69B7BBB51922407E9CB3B2 /* [CP] Check Pods Manifest.lock */,
 				3C7469F42ABC975400889D2E /* Sources */,
 				3C7469F52ABC975400889D2E /* Frameworks */,
 				3C7469F62ABC975400889D2E /* Resources */,
+				163FB9DC4EAB0639F49E79AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +348,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C746A252ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatchTests" */;
 			buildPhases = (
+				88389549CE95F1AC28A47C37 /* [CP] Check Pods Manifest.lock */,
 				3C746A0A2ABC975700889D2E /* Sources */,
 				3C746A0B2ABC975700889D2E /* Frameworks */,
 				3C746A0C2ABC975700889D2E /* Resources */,
@@ -169,9 +367,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C746A282ABC975700889D2E /* Build configuration list for PBXNativeTarget "RayWatchUITests" */;
 			buildPhases = (
+				666D82124D9D81D0A049302B /* [CP] Check Pods Manifest.lock */,
 				3C746A142ABC975700889D2E /* Sources */,
 				3C746A152ABC975700889D2E /* Frameworks */,
 				3C746A162ABC975700889D2E /* Resources */,
+				C972917C505904F93CB277F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +432,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C746A082ABC975600889D2E /* LaunchScreen.storyboard in Resources */,
+				3CE66EF62AC1C94100AE1FD5 /* uv_index.json in Resources */,
 				3C746A052ABC975600889D2E /* Assets.xcassets in Resources */,
-				3C746A032ABC975400889D2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +453,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		163FB9DC4EAB0639F49E79AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RayWatch/Pods-RayWatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RayWatch/Pods-RayWatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RayWatch/Pods-RayWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E69B7BBB51922407E9CB3B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RayWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666D82124D9D81D0A049302B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RayWatch-RayWatchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88389549CE95F1AC28A47C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RayWatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C972917C505904F93CB277F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RayWatch-RayWatchUITests/Pods-RayWatch-RayWatchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RayWatch-RayWatchUITests/Pods-RayWatch-RayWatchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RayWatch-RayWatchUITests/Pods-RayWatch-RayWatchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C7469F42ABC975400889D2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C746A002ABC975400889D2E /* ViewController.swift in Sources */,
+				3CE5380D2ABF206F00EFAD9E /* UIViewController + Loadingview.swift in Sources */,
+				3CCE2BF02ABE2D7100783CFD /* UVResult.swift in Sources */,
+				3CE5380F2ABF233700EFAD9E /* UVIndexDataModel.swift in Sources */,
+				3CE5381A2ABF3A5200EFAD9E /* UIColor + Hex.swift in Sources */,
+				3CCE2BF42ABE2D9500783CFD /* SunInfo.swift in Sources */,
+				3CE66EED2AC1C73000AE1FD5 /* URL+Extension.swift in Sources */,
+				3C746A2C2ABC97D800889D2E /* UVIndexViewController.swift in Sources */,
+				3CE66EEB2AC1C66800AE1FD5 /* GetUVIndexRequestModel.swift in Sources */,
+				3CE538182ABF367900EFAD9E /* SkinTypeCollectionViewCell.swift in Sources */,
+				3CCE2BF22ABE2D8500783CFD /* SafeExposureTime.swift in Sources */,
+				3CCE2BF62ABE2DA700783CFD /* SunPosition.swift in Sources */,
+				3CE538112ABF2E7400EFAD9E /* SkinTypeButton.swift in Sources */,
+				3C3066AC2AC2052600A574C6 /* UVIndexViewModel.swift in Sources */,
+				3CE538162ABF329700EFAD9E /* SkinTypeViewController.swift in Sources */,
+				3CCE2BF82ABE2DBA00783CFD /* SunTimes.swift in Sources */,
+				3CE538132ABF31BD00EFAD9E /* HoverButton.swift in Sources */,
+				3CCE2BE92ABE273800783CFD /* UIStackView + Extensions.swift in Sources */,
+				3CCE2BEE2ABE2D5700783CFD /* UVData.swift in Sources */,
+				3CE5381C2AC0971B00EFAD9E /* ContentView.swift in Sources */,
+				3CE66EF02AC1C84900AE1FD5 /* APIManager.swift in Sources */,
 				3C7469FC2ABC975400889D2E /* AppDelegate.swift in Sources */,
+				3CCE2BEB2ABE274C00783CFD /* UILabel + Extensions.swift in Sources */,
+				3CCE2BE32ABE26E200783CFD /* UVContentView.swift in Sources */,
+				3CE66EF32AC1C88B00AE1FD5 /* NetworkTurnpike.swift in Sources */,
+				3CE66EE22AC0C91800AE1FD5 /* ReadMoreSkinTypesButton.swift in Sources */,
 				3C7469FE2ABC975400889D2E /* SceneDelegate.swift in Sources */,
+				3CCE2BE12ABE26C000783CFD /* SunContentView.swift in Sources */,
+				3CE66EE82AC1C5F500AE1FD5 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +625,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3C746A012ABC975400889D2E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C746A022ABC975400889D2E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3C746A062ABC975600889D2E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,17 +757,18 @@
 		};
 		3C746A232ABC975700889D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022241BA81779FCFB1604BAC /* Pods-RayWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLRZ32L37H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RayWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,17 +786,18 @@
 		};
 		3C746A242ABC975700889D2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B53941E2816E7F32AC7D1AB /* Pods-RayWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLRZ32L37H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RayWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +815,7 @@
 		};
 		3C746A262ABC975700889D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37415A3AB8C33EDE82C8AC6B /* Pods-RayWatchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +836,7 @@
 		};
 		3C746A272ABC975700889D2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECEE3DB5FDBC78CA10BD68B /* Pods-RayWatchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +857,7 @@
 		};
 		3C746A292ABC975700889D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED5FACEAB7EA6DA246A3E72 /* Pods-RayWatch-RayWatchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +876,7 @@
 		};
 		3C746A2A2ABC975700889D2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCAA11C05715921A8A4C0B0 /* Pods-RayWatch-RayWatchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
