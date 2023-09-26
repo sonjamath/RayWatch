@@ -10,8 +10,8 @@ import UIKit
 import CoreLocation
 
 protocol UVIndexViewModelDelegate: AnyObject {
-    func onFetchData(with data: UVIndexDataModel)
-    func onSetSkinType(with skinType: SkinType, and data: UVIndexDataModel?)
+    func onFetchData(with data: UVIndexDataModel) // Updates UI in main viewcontroller when data has been fetched
+    func onSetSkinType(with skinType: SkinType, and data: UVIndexDataModel?) // Handles the main viewcontroller's UI updates based on the set skintype in the SkinTypeViewController
 }
 
 final class UVIndexViewModel: NSObject {
